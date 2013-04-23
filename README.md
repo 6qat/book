@@ -7,6 +7,10 @@ me, but there is only one of me" - Linus Torvalds
 
 My first computer was an Apple II (actually, it was a clone of Jobs' first popular personal computer) when I was 10 years old.
 
+### Static typing versus Dynamic typing ###
+
+In dynamic typed languages, the type is associated with the VALUE. Static typed languages has the type associated with VARIABLES.
+
 ## Mixing tons of technologies ##
 
 ## HTML and the HTTP protocol ##
