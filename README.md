@@ -59,6 +59,7 @@ Functions are objects with apply() methods. Ex.: http://d.pr/i/n7M5 , http://d.p
 Methods are not themselves function values, but when used in a place where a function value is expected,
 it is converted automatically to the function value  (http://d.pr/i/pckq). It's also called eta-expansion.
 
+Arrays are specializations of functions in Scala. For this reason, accessing an element of an array is made by () instead of [].
 
 #### Types of method invocation ####
 
