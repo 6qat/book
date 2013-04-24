@@ -88,7 +88,8 @@ The method :::, defined in List, appends the content of one list to another.
 The cons operator (::) appends a tail into a head element. 
 
 
-IMPORTANT: Lists are covariant, but Arrays in Scala are not.
+IMPORTANT: Lists are covariant, but Arrays in Scala are not. Types that accepts mutations of it's elements should not
+be variant. Immutable types, on the other hand, can be covariant if some conditions on methods are met.
 
 ## All together now ##
 
