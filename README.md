@@ -88,6 +88,8 @@ The method :::, defined in List, appends the content of one list to another.
 The cons operator (::) appends a tail into a head element. 
 
 
+IMPORTANT: Lists are covariant, but Arrays in Scala are not.
+
 ## All together now ##
 
 In this chapter we are going do create a modern web application from scratch, mixing together all the technologies we studied in former chapters.
