@@ -57,7 +57,7 @@ Tail recursion normally implies defining a function inside the original recursiv
 Functions are objects with apply() methods. Ex.: http://d.pr/i/n7M5 , http://d.pr/i/NSH1
 
 Methods are not themselves function values, but when used in a place where a function value is expected,
-it is converted automatically to the function value  (http://d.pr/i/pckq).
+it is converted automatically to the function value  (http://d.pr/i/pckq). It's also called eta-expansion.
 
 
 #### Types of method invocation ####
