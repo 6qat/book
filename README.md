@@ -25,6 +25,8 @@ I first started creating web sites when I entered in the university for an under
 
 In scala, val definitions inside classes (fields) are really special cases of methods. They can override methods and implement abstract methods in traits. The only difference between methods and fields concerns only initialization. A val object is evaluated when your object is first initialized where a def is evaluated each time it's called/referenced.
 
+Function types relate to classes, as function values relate to objects.
+
 #### Polymorfism ####
 
 There are two fundamental forms of polymorfism:
