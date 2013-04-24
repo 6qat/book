@@ -54,7 +54,7 @@ Abstracting away from the programmer the need for lower level resource handling:
 
 Tail recursion normally implies defining a function inside the original recursive function, but this time with an extra parameter that passes the calculated cumulative  value from each iteration.
 
-Functions are objects with apply() methods. Ex.: http://d.pr/i/n7M5
+Functions are objects with apply() methods. Ex.: http://d.pr/i/n7M5 , http://d.pr/i/NSH1
 
 
 #### Types of method invocation ####
