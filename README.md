@@ -84,7 +84,9 @@ It can be said that anonymous functions are a kind of syntatic sugar.
 
 ### Collections ###
 
-The method :::, defined in List, appends the content of one list to another.
+The method :::, defined in List, appends the content of one list to another. Despite if this fact, it's a prepend operator:
+Ex. xs ::: ys is equivalente of ::: being called on ys and passing xs as a parameter: ys.:::(xs)
+
 The cons operator (::) appends a tail into a head element. 
 
 
