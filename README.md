@@ -101,7 +101,7 @@ There are 3 kinds of implicits:
 implicit conversion function in the scope.
 * Converting the receiver: automatic converting the receiver object of a method call into a different type when an absent method is called, as long as there
 is an implicit conversion function in the scope.
-* Implicit parameters: 
+* Implicit parameters: implicitly apply scope available implicit values into functions or methods which have implicit implicit arguments.
 
 ## All together now ##
 
