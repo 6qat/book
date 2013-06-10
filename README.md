@@ -93,6 +93,16 @@ The cons operator (::) appends a tail into a head element.
 IMPORTANT: Lists are covariant, but Arrays in Scala are not. Types that accepts mutations of it's elements should not
 be variant. Immutable types, on the other hand, can be covariant if some conditions on methods are met.
 
+### Implicits ###
+
+There are 3 kinds of implicits:
+
+* Implicit conversion to an expected type: automatic converting an argument to a method or function from a different type to a correct type (type expected), as long as there is an
+implicit conversion function in the scope.
+* Converting the receiver: automatic converting the receiver object of a method call into a different type when an absent method is called, as long as there
+is an implicit conversion function in the scope.
+* Implicit parameters: 
+
 ## All together now ##
 
 In this chapter we are going do create a modern web application from scratch, mixing together all the technologies we studied in former chapters.
