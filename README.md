@@ -38,6 +38,8 @@ There are two fundamental forms of polymorfism:
 
 ### Methods and functions ###
 
+Function is data. The proof is that you can switch any function with a lookup table and interpolate for the values not in the table.
+
 When it may or may not return a value, use Option[T], which can be either None or Some[T]. It behaves as a collection of just one element.
 
 If the function won't return successfully, the return type is Nothing. Ex. exceptions and exit(1). 
