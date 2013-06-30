@@ -40,7 +40,9 @@ There are two fundamental forms of polymorfism:
 
 Function is data. The proof is that you can switch any function with a lookup table and interpolate for the values not in the table.
 A monoid is a collection of things associated with rules to combine these things.
-A monad needs a bind function in order to combine the functions. See http://dl.dropboxusercontent.com/s/3wg5nlqwip9du7y/2013-06-30%20at%2016.50.png
+A monad needs a bind function in order to combine the functions. 
+See http://dl.dropboxusercontent.com/s/3wg5nlqwip9du7y/2013-06-30%20at%2016.50.png , http://dl.dropboxusercontent.com/s/fn7tpvgmt3svy9w/2013-06-30%20at%2016.54.png
+
 
 
 When it may or may not return a value, use Option[T], which can be either None or Some[T]. It behaves as a collection of just one element.
