@@ -43,7 +43,8 @@ A monoid is a collection of things associated with rules to combine these things
 A monad needs a bind function in order to combine the functions. 
 See http://dl.dropboxusercontent.com/s/3wg5nlqwip9du7y/2013-06-30%20at%2016.50.png , 
 http://dl.dropboxusercontent.com/s/fn7tpvgmt3svy9w/2013-06-30%20at%2016.54.png ,
-http://dl.dropboxusercontent.com/s/onm49a7x26a40n7/2013-06-30%20at%2016.56.png
+http://dl.dropboxusercontent.com/s/onm49a7x26a40n7/2013-06-30%20at%2016.56.png ,
+http://dl.dropboxusercontent.com/s/c3dlv6xgwpdsw3m/2013-06-30%20at%2017.00.png
 
 
 
