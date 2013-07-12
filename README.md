@@ -94,22 +94,28 @@ We can rewrite it by it's definition followed by a call:
 It can be said that anonymous functions are a kind of syntatic sugar.
 
 > scala> def f(x: Int) = x + 1
+
 > f: (x: Int)Int
 
 > scala> f
+
 > <console>:9: error: missing arguments for method f;
 > follow this method with `_' if you want to treat it as a partially applied function
 
 > scala> def i = (x: Int ) => x + 1
+
 > i: Int => Int
 
 > scala> i
+
 > res21: Int => Int = <function1>
 
 > scala> val j = (x: Int ) => x + 1
+
 > j: Int => Int = <function1>
 
 > scala> j
+
 > res22: Int => Int = <function1>
 
 ### Collections ###
