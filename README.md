@@ -94,7 +94,8 @@ We can rewrite it by it's definition followed by a call:
 It can be said that anonymous functions are a kind of syntatic sugar.
 
 > scala> def f(x: Int) = x + 1
-f: (x: Int)Int
+
+> f: (x: Int)Int
 
 
 ### Collections ###
